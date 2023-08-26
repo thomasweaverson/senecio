@@ -528,9 +528,8 @@ span.header-text {
           }
 
           blockquote, .form  {
-            width: 50%;
-            min-width: 200px;
-          }
+            width: 90%;
+        }
 
 }
 
