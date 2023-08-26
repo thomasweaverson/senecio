@@ -529,7 +529,7 @@ span.header-text {
 
           blockquote, .form  {
             width: 50%;
-            min-width: 400px;
+            min-width: 200px;
           }
 
 }
