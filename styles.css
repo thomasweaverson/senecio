@@ -380,8 +380,6 @@ span.header-text {
                       border: 1px solid var(--main-text-color);
                       border-radius: 10px 10px 0 10px;
                     }
-        
-
 }
 
 @media screen and (max-width: 1054px) {
@@ -534,14 +532,6 @@ span.header-text {
 }
 
 
-/*Delivery and payments*/
-
-
-
-
-
-
-
 main {
     font-size: 2rem;
     color: #1c1c1c;
@@ -554,16 +544,12 @@ main {
     line-height: 1.3;
   }
 
-main h1:first-of-type {
-  margin-top: 0;
-  font-size: 3rem;
-  color: var(--main-text-color);
-}
 
-main h2 {
+h2, h1 {
   font-size: 2.5rem;
   color: var(--main-text-color);
   text-align: center;
+  font-family: Troubleside, sans-serif;
 }
 
 h3 {
@@ -646,12 +632,6 @@ div.advantages-ul {
   margin: 0 auto;
 }
 
-h2 {
-  font-family: Troubleside, sans-serif;
-}
-
-
-
 div.product {
 
     text-align: center;
@@ -692,6 +672,10 @@ div.product-img img {
     color: var(--main-text-color)
 }
 
+#contacts .btn, .form .btn {
+  border-radius: 10px;
+}
+
 .prices .btn:active, #contacts .btn:active, .form .btn:active {  
   background-color: var(--bg-color-btn-active);
 }
@@ -707,9 +691,6 @@ div.product-img img {
   border-radius: 10px;
   border: 1px solid var(--main-text-color);
 }
-
-
-
 
 
 /*Bloquote*/
