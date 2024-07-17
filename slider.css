@@ -54,3 +54,5 @@
     #slider_bl .slider-wrapper .info{opacity:0}
 }
 @media only screen and (min-width:850px){#slider_bl body{padding:0 80px}}
+
+label[for^=slide] {cursor:pointer}
